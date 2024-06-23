@@ -1,0 +1,30 @@
+[
+  {
+    "name": "User1",
+    "email": "user@hbl.com",
+    "password": "125",
+    "contact": "03350254985",
+    "address": "HBL"
+  },
+  {
+    "name": "User2",
+    "email": "user2@hbl.com",
+    "password": "1235",
+    "contact": "0335320254985",
+    "address": "HBL2"
+  },
+  {
+    "name": "Gorve Kumar",
+    "email": "gorve.kumar01@gmail.com",
+    "password": "125",
+    "contact": "033350254985",
+    "address": "Karachi"
+  },
+  {
+    "name": "User3",
+    "email": "user3@hbl.com",
+    "password": "1235",
+    "contact": "033350254985",
+    "address": "HBl3"
+  }
+]

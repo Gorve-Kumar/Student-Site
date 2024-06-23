@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>StudentIn</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <style>
+        body {
+            background-image: url('assets/images/back_image.jpeg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            z-index: -1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div_name" id="div_name"></div>
+
+    <div class="container flex" id="signin_div">
+        <h2>Forgot Password</h2>
+
+        <input id="fpswd_email" type="email" name=email placeholder="Enter Email Address">
+        <button id="fpswd_send_code" class="button_form" type="submit" onclick="send_code()">SEND ME CODE</button>
+        <input id="fpswd_code" type="text" name=password minlength="4" maxlength="4" onkeypress="return isNumber(event)" placeholder="Enter Code">
+        <button id="fpswd_submit_code" class="button_form" type="submit" onclick="submit_code()">SUBMIT CODE</button>
+
+        <div class="class-msg-box" id="id-msg-box"></div>
+
+        <a href="index.html"><b>Back to Login Page?</b></a>
+
+    </div>
+
+    <script src="assets/js/script_forgot_pswd.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

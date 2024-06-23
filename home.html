@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home | StudentIn</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        body {
+            background-color: rgb(224, 239, 243);
+            z-index: -1;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="flex">
+            <div class="div_name" id="div_name"></div>
+            <div class="nav-links">
+                <ul class="flex">
+                    <li><a href="" class="links">Enrol</a></li>
+                    <li><a href="" class="links">Tracks</a></li>
+                    <li><a href="" class="links">Certifications</a></li>
+                    <li><a href="" class="links">Research</a></li>
+                    <li><a href="" class="links">Faculty</a></li>
+                    <li><a href="" class="links">FAQs</a></li>
+                    <li><a href="" class="links">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="flex">
+        <div class="option">
+            <h5>Offered Courses</h5>
+            <img src="assets/images/courses.jpg" alt="courses">
+            <button><a href="courses.html">Details!!</a></button>
+        </div>
+        <div class="option">
+            <h5>Academic Calendar</h5>
+            <img src="assets/images/calendar.png" alt="calendar">
+            <button><a href="academic_cal.html">View!!</a></button>
+        </div>
+        <div class="option">
+            <h5>Research Programs</h5>
+            <img src="assets/images/research.PNG" alt="research">
+            <button><a href="">View Details!!</a></button>
+        </div>
+        <div class="option">
+            <h5>PM Laptop Scheme</h5>
+            <img src="assets/images/laptop.PNG" alt="laptop">
+            <button><a href="">View List!!</a></button>
+        </div>
+    </div>
+    <div class="home-username-div">
+        <h3 id="place-user"></h3>
+        Lorem ipsum dolor sit amet consectetur adipisicing elis molestias commodi voluptatum corrupti, aperiam debitis
+        temporibus! Quod quisquam fuga inventore, ea non amet accusantium officia in blanditiis consequuntur magni
+        provident quas eos optio asperiores explicuptatum veniam neque impedit enim, cupiditate nemo a repellat soluta
+        tenetur. Facere accusamus vero voluptatem hic exercitationem! Aperiam, cumque. Totam, cumque? Voluptates odit
+        fuga deserunt aliquid laboriosam suscipit impedit magni excepturi officiis maiores accusantium delectus id
+        exercitationem voluptatem hic dolore ab, facilis laudantium ducimus ullam ut assumenda! Expedita, dicta
+        accusamus. Ipsa corrupti aspernatur, quaerat in modi fuga dolorum, rem suscipit eveniet quo saepe aliquid vero
+        blanditiis quos repudiandae assumenda adipisci placeat, unde ab aut? Vero nihil alias quidem non, recusandae
+        nemo exercitationem ut ex culpa ipsa corrupti omnis quaerat quo tempora et quos numquam amet cumque deserunt
+        consectetur, iste nisi repellendus tenetur? Sequi impedit quia rem voluptatem nemo facilis itaque aliquid
+        dolorum in? Quibusdam nam sint excepturi quo tempore. Hic est non nam modi dolores consequatur quibusdam,
+        tenetur nemo quasi voluptates assumenda iste? Veritatis consequuntur exercitationem eius at eum? Optio est,
+        natus doloremque quas voluptate id cupiditate iste, perspiciatis esse nulla consequatur modi harum accusamus!
+        Illum, eaque suscipit dignissimos consectetur tempora tenetur maxime totam quia quas? Neque, eius recusandae
+        consectetur repellat odit incidunt tempora quos ipsum quas tempore. Porro nostrum est exercitationem rem
+        perspiciatis tenetur aut laudantium quisquam vel. Veritatis mollitia nisi unde nemo illo eius ducimus blanditiis
+        facere veniam, dicta numquam a repellendus repudiandae quod ullam eligendi explicabo praesentium sed!
+    </div>
+
+    <script src="assets/js/script.js"></script>
+    <script>
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const user_name = urlParams.get('user');
+        document.getElementById("place-user").innerText = "Welcome " + user_name;
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Python",
+        "credits": 4,
+        "instructor": "Jack"
+    },
+    {
+        "name": "Javascript",
+        "credits": 2,
+        "instructor": "Eliza"
+    },
+    {
+        "name": "Angular",
+        "credits": 1,
+        "instructor": "John"
+    },
+    {
+        "name": "Embedded C",
+        "credits": 3,
+        "instructor": "Aroona"
+    },
+    {
+        "name": "C ++",
+        "credits": 3,
+        "instructor": "Shafiq"
+    },
+    {
+        "name": "Bootstrap",
+        "credits": 2,
+        "instructor": "Mackie"
+    }
+]

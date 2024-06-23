@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>StudentIn</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        body {
+            background-image: url('assets/images/back_image.jpeg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            z-index: -1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div_name" id="div_name"></div>
+
+    <div class="container flex">
+        <h2>Sign Up Account</h2>
+
+        <input id="signup_name" type="text" name=name placeholder="Enter Username">
+        <input id="signup_email" type="email" name=email placeholder="Enter Email Address">
+        <input id="signup_pswd" type="password" placeholder="Set Password">
+        <input id="signup_contact" minlength="11" maxlength="11" type="text" placeholder="Enter Phone Number">
+        <input id="signup_address" type="text" placeholder="Enter Residence Address">
+
+        <button class="button_form" type="submit" onclick="signup()">Create Account</button>
+
+        <div class="class-msg-box" id="id-msg-box"></div>
+
+        <a href="index.html"><b>Back to Login Page?</b></a>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home | StudentIn</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        body {
+            background-color: rgb(224, 239, 243);
+            z-index: -1;
+        }
+    </style>
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+</head>
+
+<body>
+    <nav>
+        <div class="flex">
+            <div class="div_name" id="div_name"></div>
+            <div class="nav-links">
+                <ul class="flex">
+                    <li><a href="" class="links">Enrol</a></li>
+                    <li><a href="" class="links">Tracks</a></li>
+                    <li><a href="" class="links">Certifications</a></li>
+                    <li><a href="" class="links">Research</a></li>
+                    <li><a href="" class="links">Faculty</a></li>
+                    <li><a href="" class="links">FAQs</a></li>
+                    <li><a href="" class="links">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="id_search_course_div" class="search_div">
+        <input class="search_input" id="id_search_course_input" type="text" name="search" placeholder="Search Course">
+        <button class="search_btn" id="id_search_btn" onclick="search_course()">SEARCH</button>    
+    </div>
+    <div>
+        <table id="id_tbl">
+            <thead id="id_courses_table_head">
+                <tr>
+                    <th>Course Name</th>
+                    <th>No. of Credit Hours</th>
+                    <th>Course Instructor</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/script_courses.js"></script>
+
+</body>
+
+</html>

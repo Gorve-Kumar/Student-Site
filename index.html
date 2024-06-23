@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>StudentIn</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        body {
+            background-image: url('assets/images/back_image.jpeg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            z-index: -1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div_name" id="div_name"></div>
+
+    <div class="container flex" id="signin_div">
+        <h2>Sign In Account</h2>
+
+        <input id="login_email" type="email" name=email placeholder="Enter Email Address">
+        <input id="login_pswd" type="password" name=password placeholder="Enter Password">
+
+        <button class="button_form" type="submit" onclick="signin()">Login</button>
+
+        <div class="class-msg-box" id="id-msg-box"></div>
+
+        <a href="forgot_pswd.html"><b>Forgot Password?</b></a>
+        <a href="signup.html"><b>Create New Account?</b></a>
+
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
